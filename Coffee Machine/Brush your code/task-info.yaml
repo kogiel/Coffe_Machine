@@ -1,0 +1,23 @@
+type: edu
+custom_name: stage6
+files:
+- name: test/CoffeeMachineTest.java
+  visible: false
+  learner_created: false
+- name: src/machine/CoffeeMachine.java
+  visible: true
+  text: "package machine;\nimport java.util.Scanner;\n\npublic class CoffeeMachine\
+    \ {   \n     public static void main(String[] args) {\n        final Scanner scanner\
+    \ = new Scanner(System.in);\n        int cupsOfCoffe = scanner.nextInt();\n  \
+    \      \n        final int beans = 15;\n        final int water = 200;\n     \
+    \   final int milk = 50;\n        int amountOfMilk = cupsOfCoffe * milk;\n   \
+    \     int amountOfBeans = cupsOfCoffe * beans;\n        int amountOfWater = cupsOfCoffe\
+    \ * water;\n\n        System.out.println(\"How many cups of coffe You need\" +\
+    \ cupsOfCoffe);\n        System.out.println(\"For \" + cupsOfCoffe + \"u will\
+    \ need\");\n        System.out.println(amountOfMilk+\"ml of milk\");\n       \
+    \ System.out.println(amountOfBeans+\"gr of coffe beans\");\n        System.out.println(amountOfWater+\"\
+    ml of water\");\n\n    }\n}\n"
+  learner_created: false
+feedback_link: https://hyperskill.org/projects/33/stages/180/implement
+status: Unchecked
+record: -1
